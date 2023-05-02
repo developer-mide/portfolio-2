@@ -1,0 +1,83 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    background-color: darkcyan;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    box-shadow: -1px 0px 9px 3px rgb(0, 139, 139);
+    -webkit-box-shadow: -1px 0px 9px 3px rgba(0, 139, 139);
+    -moz-box-shadow: -1px 0px 9px 3px rgb(0, 139, 139);
+}
+
+#profile-image{
+    width: 50vh;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.bold-b-text{
+    font-weight: 600;
+}
+
+.b-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.d-block{
+    display: block;
+}
+.profile-name{
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.occupation{
+    margin-bottom: 40px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.main-box{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    height: 61vh;
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.content-box{
+    width: 50%;
+}
+
+.content-body{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.miscellaneous{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: -1px 0px 18px 6px rgba(219,219,219,1);
+    -webkit-box-shadow: -1px 0px 18px 6px rgba(219,219,219,1);
+    -moz-box-shadow: -1px 0px 18px 6px rgba(219,219,219,1);
+}
